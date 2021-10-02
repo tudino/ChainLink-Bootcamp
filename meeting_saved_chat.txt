@@ -1,0 +1,366 @@
+19:06:03 From  JHONATAN ALEJANDRO URETA TASAYCO  to  Everyone:
+	hola
+19:06:19 From  Sebastian  to  Everyone:
+	Buenas tardes
+19:06:34 From  Gilberts Ahumada  to  Everyone:
+	Buenas tardes
+19:06:46 From  Daniel Ochoa  to  Everyone:
+	Buenas tardes a todos!
+19:08:17 From  Maximiliano Bury  to  Everyone:
+	buenas tardes gente
+19:09:36 From  Camilo Molano  to  Everyone:
+	Muy buenas tardes a todos
+19:09:46 From  Camilo Molano  to  Everyone:
+	bienvenidos a la sesión 3 del bootcamp
+19:09:46 From  Ariel Diaz  to  Everyone:
+	hola, cuánto dura la Conferencia de hoy?
+19:09:54 From  Camilo Molano  to  Everyone:
+	Ariel dura 2 horas
+19:10:15 From  Ariel Diaz  to  Everyone:
+	ok gracias
+19:10:26 From  Camilo Molano  to  Everyone:
+	les comparto nuevamente el enlace con los ejercicios de la sesión 2 y 3
+19:10:31 From  Camilo Molano  to  Everyone:
+	https://docs.google.com/document/d/1T6qTcBkw7O1FpxAYiQWCdGO5jHtEUflo3M42RHUh4cY/edit?usp=sharing
+19:23:37 From  Federico Tudino  to  Everyone:
+	Se puede vincular la red local con metamask ?
+19:23:45 From  Camilo Molano  to  Everyone:
+	si Federico
+19:24:02 From  Federico Tudino  to  Everyone:
+	Espectacular
+19:24:11 From  Mony  to  Everyone:
+	Se puede hacer esto mismo con Wampserver?
+19:24:29 From  Camilo Molano  to  Everyone:
+	lo haces en la parte que dice RPC personalizado
+19:25:06 From  Mony  to  Everyone:
+	ok gracias!
+19:26:04 From  Sebastian  to  Everyone:
+	No comprendi el ultimo comando
+19:26:52 From  Ariel Diaz  to  Everyone:
+	muy bien explicado, pero todo es muy básico aún 😅
+19:26:56 From  rohernandez  to  Everyone:
+	cuantos nodos puedes emular con ganache?,
+19:27:07 From  Wbert Adrián Castro Vera  to  Everyone:
+	Ese comando si esta en la guía? No lo veo?
+19:27:13 From  Mony  to  Everyone:
+	Ah ok  bien entonces en wamp no!
+19:28:31 From  Camilo Molano  to  Everyone:
+	el comando esta en la pagina 34
+19:28:33 From  Wbert Adrián Castro Vera  to  Everyone:
+	El nombre puede ser cualquier  cosa? O tiene que ser ganache?
+19:29:13 From  Wbert Adrián Castro Vera  to  Everyone:
+	La misma pregunta para el chainid
+19:29:41 From  Sebastian  to  Everyone:
+	Es decir, enlaza la red Ethereum con el servidor local?
+19:31:00 From  Gilberts Ahumada  to  Everyone:
+	realiza un fork de la red
+19:31:34 From  Federico Tudino  to  Everyone:
+	Me agrego la red automaticamente a metamask
+19:31:45 From  Federico Tudino  to  Everyone:
+	Que cracks
+19:32:02 From  Sebastian  to  Everyone:
+	Ahh perfecto gracias Gilberts, luego voy a repasar el tema del fork
+19:34:50 From  Kevin Delgado  to  Everyone:
+	Lo que define en que red de Eth estamos es el chainID?		Alguien podría explicar como funciona esto?
+19:34:54 From  Ariel Diaz  to  Everyone:
+	no entiendo la pregunta
+19:34:55 From  Manuel Facio  to  Everyone:
+	me esta descargando algo
+19:35:03 From  Arturo Mena  to  Everyone:
+	Ahora se está desplegando en ganache
+19:35:09 From  Wbert Adrián Castro Vera  to  Everyone:
+	Diferencia entre que y que??
+19:35:17 From  Federico Tudino  to  Everyone:
+	no puso la opcion --network kovan
+19:35:17 From  Wbert Adrián Castro Vera  to  Everyone:
+	Ahora dice mocks
+19:35:24 From  Gilberts Ahumada  to  Everyone:
+	la primera sesión utilizamos
+19:35:32 From  Gilberts Ahumada  to  Everyone:
+	al final el comando -network
+19:36:04 From  Arturo Mena  to  Everyone:
+	se despliega al default
+19:37:35 From  Ariel Diaz  to  Everyone:
+	a ver según yo sé esa configuración inicial es lo que se crea en el bloque génesis de la red local de Ethereum que se está creando
+19:38:14 From  Federico Tudino  to  Everyone:
+	Se puede hacer port forwarding y trabajar remoto verdad ?
+19:40:02 From  Gilberts Ahumada  to  Everyone:
+	el bloque génesis es el primer bloque de una blockchain, para que ese bloque se pueda generar se necesita una red, en el caso de ethereum se forma con todos los nodos ejecutando el cliente, para simular esa red de manera local utilizamos ganache
+19:41:41 From  rohernandez  to  Everyone:
+	se podría hacer usando ngrok,
+19:41:45 From  rohernandez  to  Everyone:
+	es decir trabajar en remoto
+19:41:54 From  Ulises Marinero  to  Everyone:
+	Se pueden configurar la cuentas ? Por ejemplo el total de ETH que tiene cada una??
+19:42:07 From  Ariel Diaz  to  Everyone:
+	depende del fichero de configuración pero si se puede
+19:42:10 From  Kevin Delgado  to  Everyone:
+	La red ganache "jala" tx existentes en la red, o se inicia desde 0?
+19:42:49 From  Ariel Diaz  to  Everyone:
+	si claro
+19:43:02 From  Ariel Diaz  to  Everyone:
+	todo está en el fichero de configuración
+19:43:41 From  Ariel Diaz  to  Everyone:
+	se está creando una red local y puedes crear address con eth para hacer pruebas y transacciones
+19:44:21 From  Ulises Marinero  to  Everyone:
+	ok ¡ gracias ¡¡¡
+19:44:23 From  Ariel Diaz  to  Everyone:
+	si si se puede modificando el fichero. yaml
+19:44:47 From  Ariel Diaz  to  Everyone:
+	creo que se llama config.yaml
+19:47:03 From  Marco Perez  to  Everyone:
+	cuanto pesa esa copia ?
+19:47:47 From  Ariel Diaz  to  Everyone:
+	eso no es la Blockchain de Ethereum 🤣🤣🤣
+19:48:00 From  Camilo Molano  to  Everyone:
+	https://docs.google.com/document/d/1T6qTcBkw7O1FpxAYiQWCdGO5jHtEUflo3M42RHUh4cY/edit?usp=sharing
+19:48:22 From  rohernandez  to  Everyone:
+	Usando ganache podríamos emular nodos de minado?,
+19:48:32 From  Ariel Diaz  to  Everyone:
+	si
+19:50:25 From  rohernandez  to  Everyone:
+	la red de minado local usaste protocolo POW, usando dockers?,
+19:51:05 From  rohernandez  to  Everyone:
+	vientos Ariel, muy bueno para una prueba concepto
+19:51:13 From  Sebastian  to  Everyone:
+	Tremendo trabajo Ariel!!
+19:51:30 From  Gilberts Ahumada  to  Everyone:
+	Buenísima!
+19:51:36 From  Gilberts Ahumada  to  Everyone:
+	que participe en la hackathon
+19:51:50 From  Maximiliano Bury  to  Everyone:
+	crack
+19:52:38 From  rohernandez  to  Everyone:
+	Sería bueno el workshop para el tema de redes minado emuladas para hacer Pruebas concepto en diferentes organizaciones
+19:53:06 From  Israel Romero  to  Everyone:
+	Exelente! :D
+19:58:44 From  Marco Perez  to  Everyone:
+	las interrupciones
+20:03:39 From  Ariel Diaz  to  Everyone:
+	muy buenas las presentaciones ✌🏻
+20:06:20 From  Carlos santaella mora  to  Everyone:
+	debuggin
+20:06:34 From  Ariel Diaz  to  Everyone:
+	recomiendo Locust para desarrollo de stress test en Python
+20:06:43 From  Carlos santaella mora  to  Everyone:
+	debugging*
+20:09:58 From  Wbert Adrián Castro Vera  to  Everyone:
+	Se me olvido: del tema anterior esta pregunta en la guía:
+20:10:04 From  Wbert Adrián Castro Vera  to  Everyone:
+	>No podrás ejecutar 02_read_price_feed.py... ¿Adivinas por qué?
+20:10:34 From  Carlos santaella mora  to  Everyone:
+	Hola una consulta estuve intentando ver la sesion pasada pero no hay un acesso al video en youtube.
+20:11:25 From  Gilberts Ahumada  to  Everyone:
+	Hola Carlos sería genial si te unes al canal de discord, por ahí compartimos toda la información del bootcamp
+20:11:57 From  Gilberts Ahumada  to  Everyone:
+	Y queda en el histórico del chat
+20:12:16 From  Carlos santaella mora  to  Everyone:
+	dale, muchas gracias
+20:12:47 From  Gilberts Ahumada  to  Everyone:
+	https://discord.gg/DsJHuF4E
+20:13:29 From  Camilo Molano  to  Everyone:
+	Día 2 Brownie Track	Youtube: https://youtu.be/Pi8eGy7WjqQ
+20:13:35 From  Camilo Molano  to  Everyone:
+	acá también esta el enlace
+20:13:43 From  Ariel Diaz  to  Everyone:
+	usen linux directo 🤣🤣🤣
+20:14:29 From  Carlos santaella mora  to  Everyone:
+	un clasico, reinicie 
+20:15:12 From  Federico Tudino  to  Everyone:
+	falta el archivo env
+20:15:20 From  Wbert Adrián Castro Vera  to  Everyone:
+	Ya no tiene el archivo .env
+20:15:28 From  Ariel Diaz  to  Everyone:
+	como cuando se borra la carpeta node_modules y de instala de nuevo y funciona 🤦‍♂️😅😅😅
+20:16:04 From  Federico Tudino  to  Everyone:
+	Y tiene que descomentar la linea dotenv del brownie-config
+20:16:47 From  Wbert Adrián Castro Vera  to  Everyone:
+	Es muy muy lento
+20:18:18 From  Gilberts Ahumada  to  Everyone:
+	me peiné para la foto
+20:18:23 From  Sebastian  to  Everyone:
+	No tengo camara :(
+20:18:38 From  Carlos santaella mora  to  Everyone:
+	cuando nos referimos a contratos inteligentes su funcionalidad o desarrollo tiene los mismo limites que la programación, la imaginación?
+20:19:34 From  Ariel Diaz  to  Everyone:
+	soy muy guapo no quiero opacar a nadie en la foto 🤣🤣🤣🤣... na mentira no soy fotogénico
+20:20:09 From  Federico Tudino  to  Everyone:
+	Disculpen no tengo camara en este momento y no se como poner una imagen de fondo
+20:20:37 From  Gilberts Ahumada  to  Everyone:
+	exacto Carlos, solo que aquí la imaginación "cuesta gas" 😅
+20:36:05 From  Carlos santaella mora  to  Everyone:
+	anonadados
+20:36:14 From  Israel Romero  to  Everyone:
+	😱
+20:36:55 From  rohernandez  to  Everyone:
+	Muy buena la iniciativa,
+20:38:31 From  Sebastian  to  Everyone:
+	Excelente!
+20:38:34 From  rohernandez  to  Everyone:
+	Sería interesante hacer un bootcamp también acerca de redes privadas, quizás a través de hyperledger, lo anterior para tener los conocimientos de ambos mundos ...
+20:39:17 From  Camilo Molano  to  Everyone:
+	https://cryptozombies.io/
+20:39:24 From  Camilo Molano  to  Everyone:
+	https://academy.ivanontech.com/
+20:39:29 From  Camilo Molano  to  Everyone:
+	https://academy.ivanontech.com/
+20:39:40 From  Camilo Molano  to  Everyone:
+	https://eattheblocks.com/
+20:39:56 From  Camilo Molano  to  Everyone:
+	https://www.chainshot.com/
+20:41:10 From  Camilo Molano  to  Everyone:
+	https://chain.link/hackathon?utm_medium=community&utm_source=developer-expert&utm_campaign=fall-2021-hackathon&utm_content=3
+20:41:12 From  luis_quina  to  Everyone:
+	El proyecto cryptonumbers.io, está en fase inicial de desarrollo, sí alguien se interesa y nos sugiere ideas, sería fabuloso.
+20:41:32 From  Camilo Molano  to  Everyone:
+	https://www.youtube.com/channel/UCOehy-At69uzzN3P-6AGspg
+20:41:34 From  Federico Tudino  to  Everyone:
+	👏👏👏👏👏
+20:41:49 From  Ariel Diaz  to  Everyone:
+	👏👏👏👏👏👏👏👏
+20:42:14 From  Maximiliano Bury  to  Everyone:
+	👏👏👏👏
+20:42:15 From  Camilo Molano  to  Everyone:
+	https://chain.link/hackathon?utm_medium=community&utm_source=developer-expert&utm_campaign=fall-2021-hackathon&utm_content=3
+20:42:17 From  Israel Romero  to  Everyone:
+	👏👏👏
+20:42:41 From  rohernandez  to  Everyone:
+	Excelente por compartir su tiempo, muchas gracias .
+20:42:46 From  Giovanni Herran  to  Everyone:
+	muy professional y a buen ritmo  muchas gracias
+20:43:05 From  Camilo Molano  to  Everyone:
+	https://chainlinkcommunity.typeform.com/to/nEgwQ3tc
+20:43:26 From  Camilo Molano  to  Everyone:
+	https://t.me/joinchat/wLWFno5veSo1NTU0
+20:43:46 From  Sebastian  to  Everyone:
+	Muy agradecido, muchas gracias a todos y a chainlink por la oportunidad!
+20:45:03 From  Camilo Molano  to  Everyone:
+	https://youtu.be/M576WGiDBdQ
+20:45:32 From  Ariel Diaz  to  Everyone:
+	Me sumo a la iniciativa de crear una comunidad en español para desarrolladores en Blockchain
+20:46:07 From  Camilo Molano  to  Everyone:
+	#BootcampChainlinkLatam
+20:46:09 From  Camilo Molano  to  Everyone:
+	#BootcampChainlinkLatam
+20:46:13 From  Ulises Marinero  to  Everyone:
+	perdón una pregunta … ,Los empleadores del desarrollo de este tipo de aplicaciones, buscan gente con algún tipo de certificación en específico. ???
+20:46:16 From  Israel Romero  to  Everyone:
+	Igual me sumo! a la comunidad y a un team para el hackathon :)
+20:46:19 From  Sebastian  to  Everyone:
+	Tambien me gustaria participar, desde lo básico
+20:46:36 From  Francisco Valuch  to  Everyone:
+	Me sumo a ese hackathon
+20:46:39 From  Ariel Diaz  to  Everyone:
+	Hay muy poco material bueno en español creo, la mayoría de la info está en Inglés
+20:46:40 From  Manuel Facio  to  Everyone:
+	Me sumo al equipo básico!
+20:47:22 From  Ariel Diaz  to  Everyone:
+	En mi caso nunca me han pedido certificados
+20:47:39 From  Wbert Adrián Castro Vera  to  Everyone:
+	Que tan difícil es entrar al mundo laboral en blockchain?
+20:47:50 From  Israel Romero  to  Everyone:
+	Me acabo de comprar un curso en Udemy, espero que sirva 😅
+20:47:56 From  Ulises Marinero  to  Everyone:
+	Ooh muy bien :)
+20:47:59 From  Ulises Marinero  to  Everyone:
+	gracias ¡
+20:48:34 From  Ariel Diaz  to  Everyone:
+	Pues es mucho más grande la demanda que la oferta, en mi opinión no es tan difícil pero si es casi imprescindible hablar inglés
+20:49:00 From  Wbert Adrián Castro Vera  to  Everyone:
+	Que tan amigable es la comunidad del blockchain?
+20:49:03 From  Camilo Molano  to  Everyone:
+	#BootcampChainlinkLatam
+20:49:05 From  Camilo Molano  to  Everyone:
+	#BootcampChainlinkLatam
+20:49:07 From  Camilo Molano  to  Everyone:
+	#BootcampChainlinkLatam
+20:49:08 From  Camilo Molano  to  Everyone:
+	#BootcampChainlinkLatam
+20:49:08 From  Camilo Molano  to  Everyone:
+	#BootcampChainlinkLatam
+20:49:12 From  rohernandez  to  Everyone:
+	Que paso, aún faltan meses para terminar el año
+20:49:15 From  Wbert Adrián Castro Vera  to  Everyone:
+	Que repositorios serian buenos para empezar.
+20:49:18 From  rohernandez  to  Everyone:
+	no presionen jajaj
+20:50:16 From  Ariel Diaz  to  Everyone:
+	recomiendo leer Mastering Ethereum
+20:50:23 From  Federico Tudino  to  Everyone:
+	Argentina
+20:50:25 From  Kevin Delgado  to  Everyone:
+	Costa Rica
+20:50:26 From  Ariel Diaz  to  Everyone:
+	saludos desde Cuba
+20:50:27 From  Sebastian  to  Everyone:
+	Argentina
+20:50:27 From  Manuel Facio  to  Everyone:
+	Argentina
+20:50:27 From  Carlos santaella mora  to  Everyone:
+	#colombia
+20:50:28 From  rohernandez  to  Everyone:
+	México,
+20:50:28 From  Francisco Valuch  to  Everyone:
+	Argentina
+20:50:29 From  Maximiliano Bury  to  Everyone:
+	argentina
+20:50:30 From  Yorber  to  Everyone:
+	Venezolano en colombia :)
+20:50:34 From  Marco Perez  to  Everyone:
+	yo no puedo poner la camara, :(
+20:50:40 From  Sonia Sara  to  Everyone:
+	Bolivia
+20:50:40 From  Marco Perez  to  Everyone:
+	mexico
+20:50:42 From  Ulises Marinero  to  Everyone:
+	México ¡¡¡¡¡¡¡¡¡¡
+20:50:43 From  Arturo Mena  to  Everyone:
+	Perú!
+20:50:52 From  Giovanni Herran  to  Everyone:
+	Colombia
+20:51:13 From  Wbert Adrián Castro Vera  to  Everyone:
+	Colombia
+20:51:41 From  luis_quina  to  Everyone:
+	Ecuador
+20:52:20 From  Carlos santaella mora  to  Everyone:
+	les agradezco su esfuerzo y dedicacion, me encantaria una ampliacion de informacion en contratos inteligentes y su despliegue en todo tipo de redes. Claro que los acompañaria en un siguiente boot
+20:52:48 From  Marco Perez  to  Everyone:
+	asi es :)
+20:53:59 From  Marco Perez  to  Everyone:
+	podrian escribir los requisitos para lo de la camisa ??
+20:54:14 From  Israel Romero  to  Everyone:
+	saludos desde Bolivia!
+20:54:21 From  Carlos Santaniello  to  Everyone:
+	desde España
+20:54:32 From  Carlos Santaniello  to  Everyone:
+	1:54 am
+20:54:44 From  Carlos Santaniello  to  Everyone:
+	La pasión por Blockchain!
+20:55:16 From  Francisco Valuch  to  Everyone:
+	Tengo esos libros en pdf
+20:55:21 From  Francisco Valuch  to  Everyone:
+	para el que los necesite
+20:55:29 From  Kevin Delgado  to  Everyone:
+	Gilberts, podes poner el nombre del libro en el chat? gracias
+20:55:58 From  Camilo Molano  to  Everyone:
+	#BootcampChainlinkLatam
+20:56:02 From  Gilberts Ahumada  to  Everyone:
+	blockchain la revolucion industrial de internet
+20:56:07 From  Camilo Molano  to  Everyone:
+	@camohe90
+20:56:27 From  Gilberts Ahumada  to  Everyone:
+	@teterabOb
+20:56:46 From  Camilo Molano  to  Everyone:
+	https://www.linkedin.com/in/camohe90/
+20:57:13 From  rohernandez  to  Everyone:
+	me sumo al hackaton,
+20:57:25 From  rohernandez  to  Everyone:
+	les comparto un buen libro acerca de Identidad auto-soberana:
+20:57:27 From  rohernandez  to  Everyone:
+	https://publications.iadb.org/publications/english/document/Self-Sovereign-Identity-The-Future-of-Identity-Self-Sovereignity-Digital-Wallets-and-Blockchain.pdf
+20:58:11 From  Ulises Marinero  to  Everyone:
+	Muchas felicidades, organizadores muy bien todo muy PRO ¡¡
+20:59:51 From  Camilo Molano  to  Everyone:
+	https://t.me/joinchat/wLWFno5veSo1NTU0
+21:00:01 From  rohernandez  to  Everyone:
+	Lo complejo, es explicar el porque usar Blockchain, y hacer una estrategia de transformación digital en las organizaciones ...
